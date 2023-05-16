@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ventilar-web
+  # namespace: ventilar
+spec:
+  selector:
+    app: ventilar-web
+  # type: ClusterIP (default)| LoadBalancer | NodePort
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8081 # service port
+      targetPort: 80 # container port
