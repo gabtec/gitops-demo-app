@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: ventilar-web
-          image: gabtec/test-k8s
+          image: gabtec/test-k8s:v1
           ports:
             - containerPort: 80
