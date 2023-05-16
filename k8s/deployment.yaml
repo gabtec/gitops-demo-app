@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ventilar-web
+  namespace: ventilar
   labels:
     app: ventilar-web
 spec:
