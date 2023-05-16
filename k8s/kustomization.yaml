@@ -9,4 +9,5 @@ namespace: default
 images:
   - name: ventilar-web
     newName: gabtec/test-k8s
-    newTag: v1
+    newTag: v1 # aqua
+     # newTag: 083faa54a76681856fd5678a8ddebcf1e85b9ecf # orange
